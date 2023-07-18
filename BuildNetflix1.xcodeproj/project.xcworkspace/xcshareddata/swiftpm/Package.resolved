@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "gsplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wxxsw/GSPlayer.git",
+      "state" : {
+        "revision" : "d0fa13a5e393bd033f2b47ca038b7b623613f95b",
+        "version" : "0.2.17"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "fd6aee6d3774db191b22e331cc88f00041a2ca85",
+        "version" : "5.14.1"
+      }
+    },
+    {
+      "identity" : "videoplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wxxsw/VideoPlayer",
+      "state" : {
+        "revision" : "73a30d2cc0b58e9a8e063b0333022dc636b45946",
+        "version" : "1.1.6"
+      }
+    }
+  ],
+  "version" : 2
+}
