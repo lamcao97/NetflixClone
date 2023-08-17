@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct BuildNetflixApp: App {
+    
+    @StateObject var launchScreenManager = LaunchScreenManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                ContentView()
+                
+                if launchScreenManager.state != .completed {
+                    SplashScreenView()
+                }
+            }
+            .environmentObject(launchScreenManager)
         }
     }
 }

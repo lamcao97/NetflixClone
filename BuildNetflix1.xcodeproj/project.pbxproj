@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1866BF372A8DDAE80097A90B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BF362A8DDAE80097A90B /* SplashScreenView.swift */; };
+		1866BF382A8DDAE80097A90B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BF362A8DDAE80097A90B /* SplashScreenView.swift */; };
+		1866BF3A2A8DE01B0097A90B /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BF392A8DE01B0097A90B /* LaunchScreenManager.swift */; };
+		1866BF3B2A8DE01B0097A90B /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866BF392A8DE01B0097A90B /* LaunchScreenManager.swift */; };
 		6B1FCA3624B37A3F00C6E71A /* BuildNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FCA2324B37A3E00C6E71A /* BuildNetflixApp.swift */; };
 		6B1FCA3724B37A3F00C6E71A /* BuildNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FCA2324B37A3E00C6E71A /* BuildNetflixApp.swift */; };
 		6B1FCA3824B37A3F00C6E71A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FCA2424B37A3E00C6E71A /* ContentView.swift */; };
@@ -66,6 +70,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1866BF362A8DDAE80097A90B /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashScreenView.swift; path = ../../AppDemo/SplashScreen/SplashScreen/SplashScreenView.swift; sourceTree = "<group>"; };
+		1866BF392A8DE01B0097A90B /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
+		1866BF3D2A8E64DC0097A90B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		6B1FCA2324B37A3E00C6E71A /* BuildNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflixApp.swift; sourceTree = "<group>"; };
 		6B1FCA2424B37A3E00C6E71A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B1FCA2524B37A3F00C6E71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,6 +142,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1866BF3C2A8E64C50097A90B /* FplashScreens */ = {
+			isa = PBXGroup;
+			children = (
+				1866BF3D2A8E64DC0097A90B /* SplashScreenView.swift */,
+				1866BF392A8DE01B0097A90B /* LaunchScreenManager.swift */,
+			);
+			path = FplashScreens;
+			sourceTree = "<group>";
+		};
 		6B1FCA1D24B37A3D00C6E71A = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +166,7 @@
 			children = (
 				6B1FCA2324B37A3E00C6E71A /* BuildNetflixApp.swift */,
 				6B1FCA2424B37A3E00C6E71A /* ContentView.swift */,
+				1866BF362A8DDAE80097A90B /* SplashScreenView.swift */,
 				6B1FCA2524B37A3F00C6E71A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -167,6 +184,7 @@
 		6B1FCA2C24B37A3F00C6E71A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1866BF3C2A8E64C50097A90B /* FplashScreens */,
 				6B7D91C924BCE305009C6108 /* HomeViews */,
 				6B7D91CB24BCE31C009C6108 /* HelperViews */,
 				6B7D91C624BCE2C2009C6108 /* Model */,
@@ -407,6 +425,7 @@
 			files = (
 				6B9A354D24E066AE0041C0A2 /* PopularMovieView.swift in Sources */,
 				6BB6DDDE254627AB00448B13 /* PagerView.swift in Sources */,
+				1866BF3A2A8DE01B0097A90B /* LaunchScreenManager.swift in Sources */,
 				6BAF764124CB801A009943E8 /* EpisodesView.swift in Sources */,
 				6BCDD2EB24E2064000A8C453 /* DownloadsView.swift in Sources */,
 				6B9A354B24E04D0F0041C0A2 /* GenerateMovies.swift in Sources */,
@@ -440,6 +459,7 @@
 				6BCDD2E224E1F9DB00A8C453 /* ComingSoonRow.swift in Sources */,
 				6BAAFD9524C4C7BC001639C0 /* CustomTabSwitcher.swift in Sources */,
 				6BF755F825575301000AE16A /* PreviewList.swift in Sources */,
+				1866BF372A8DDAE80097A90B /* SplashScreenView.swift in Sources */,
 				6BAF763F24CB646B009943E8 /* TrailerList.swift in Sources */,
 				6BBF646024B4E9E700C38DCB /* SmallVerticalButton.swift in Sources */,
 				6BBF646224B4F16200C38DCB /* PlayButton.swift in Sources */,
@@ -455,6 +475,7 @@
 			files = (
 				6BCDD2DC24E1F6C300A8C453 /* ComingSoon.swift in Sources */,
 				6BCDD2E924E1FF0D00A8C453 /* TrackableScrollView.swift in Sources */,
+				1866BF3B2A8DE01B0097A90B /* LaunchScreenManager.swift in Sources */,
 				6B1FCA5824B37F3B00C6E71A /* GlobalHelpers.swift in Sources */,
 				6B1FCA4E24B37E1B00C6E71A /* HomeView.swift in Sources */,
 				6B1FCA3924B37A3F00C6E71A /* ContentView.swift in Sources */,
@@ -464,6 +485,7 @@
 				6B1FCA5224B37E4B00C6E71A /* Movie.swift in Sources */,
 				6BCDD2E324E1F9DB00A8C453 /* ComingSoonRow.swift in Sources */,
 				6B1FCA3724B37A3F00C6E71A /* BuildNetflixApp.swift in Sources */,
+				1866BF382A8DDAE80097A90B /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @EnvironmentObject var launchScreenManager: LaunchScreenManager
+    
     @State private var showPreviewFullScreen = false
     @State private var previewStartingIndex: Int = 0
     
@@ -135,11 +137,19 @@ struct ContentView: View {
                 }
             }
         })
+        .onAppear() {
+            DispatchQueue
+                .main
+                .asyncAfter(deadline: .now() + 1.5) {
+                    launchScreenManager.dismiss()
+                }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(LaunchScreenManager())
     }
 }
